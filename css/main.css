@@ -1,0 +1,35 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	text-align:center;
+}
+
+.label_part {
+	width:400px;
+}
+.whole_section {
+	display:flex;
+}
+.section_part {
+	margin:20px;
+	width:40%;
+
+}
+
+.fridge {
+	display:flex;
+}
+h2 {
+	text-align:center;
+}
+.inside_section {
+	margin-left:30px;
+}
+tr td {
+	text-align:center;
+	padding:5px;
+	color:red;
+}

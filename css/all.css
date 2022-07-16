@@ -1,0 +1,48 @@
+* {
+	margin:0;
+}
+
+body {
+	background-image:url(../static/pexels1.jpg);
+}
+.navbar {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 position: sticky;
+	 top: 0;
+	 
+	 z-index: 999;
+     }
+
+.navbar_menu {
+     display: flex;
+	 align-items: left;
+	 list-style: none;
+     }	 
+
+	 
+.navbar_item {
+     height: 80px
+	 }
+	 
+.nav_links {
+
+     color: #fff;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 125px;
+	 text-decoration: none;
+	 height: 100%;
+     }	
+.nav_links:hover {
+	 color:green;
+}	 
+.navbar_btn {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 padding: 0 1rem;
+	 width: 100%;
+     }	
